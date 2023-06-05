@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    master:
+      url: jdbc:mysql://127.0.0.1:3306/report_manager_db
+      username: root
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
+    slave_1:
+      url: jdbc:firebirdsql:127.0.0.1/3050:D:\software\SYERP\YsAdatabase\ZD_SC.FDB?encoding=UTF8
+      username: SYSDBA
+      password: masterkey
+      driver-class-name: org.firebirdsql.jdbc.FBDriver

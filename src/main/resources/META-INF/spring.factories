@@ -1,0 +1,2 @@
+#Spring的配置文件以查找方言解析器
+org.springframework.data.jdbc.repository.config.DialectResolver$JdbcDialectProvider=com.shangyu.demo.spring.firebird.FirebirdDialectResolver
